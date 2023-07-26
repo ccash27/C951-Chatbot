@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+	<category>
+    <pattern>begin</pattern>
+    <template>Hello! Welcome to the computer science career bot. Would you like to see some of the top careers or do you need help picking one?
+        <button>
+            <text>Top career choices</text>
+            <postback>top</postback>
+        </button>
+        <button>
+            <text>Help me choose my options</text>
+            <postback>choose my options</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>hi</pattern>
+    <template><srai>begin</srai></template>
+</category>
+
+<category>
+    <pattern>hello</pattern>
+    <template><srai>begin</srai></template>
+</category>
+
+<category>
+    <pattern>help</pattern>
+    <template><srai>begin</srai></template>
+</category>
+
+
+</aiml>

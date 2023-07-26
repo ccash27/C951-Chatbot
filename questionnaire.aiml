@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+    <pattern>choose my options</pattern>
+    <template>
+        To begin, let's start with some simple questions. Do you enjoy making programs and applications?
+        <button>
+            <text>Yes</text>
+            <postback>ENJPROGYES</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>ENJPROGNO</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>ENJPROGYES</pattern>
+    <template>
+        Do you prefer creating new applications or maintaining and improving existing ones?
+        <button>
+            <text>Creating new applications</text>
+            <postback>learn more software</postback>
+        </button>
+        <button>
+            <text>Maintaining and improving existing ones</text>
+            <postback>learn more devops</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>ENJPROGNO</pattern>
+    <template>
+        Are you interested in automation of tasks or processing data?
+        <button>
+            <text>Yes</text>
+            <postback>ENJDATAAUTOYES</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>ENJSECURITY</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>ENJDATAAUTOYES</pattern>
+    <template>
+        Which interests you more, automation of tasks or processing data?
+        <button>
+            <text>Automation of tasks</text>
+            <postback>learn more AIML</postback>
+        </button>
+        <button>
+            <text>Processing data</text>
+            <postback>learn more big data</postback>
+        </button>
+        <button>
+            <text>Neither</text>
+            <postback>ENJSECURITY</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>ENJSECURITY</pattern>
+    <template>
+        Are you interested in security or firmware on chips and hardware on embedded systems?
+        <button>
+            <text>Yes</text>
+            <postback>ENJSECURITYYES</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>appointment with adviser</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>ENJSECURITYYES</pattern>
+    <template>
+        Which interests you more, security or firmware on chips and hardware on embedded systems?
+        <button>
+            <text>Security</text>
+            <postback>learn more cybersecurity</postback>
+        </button>
+        <button>
+            <text>Firmware on chips and hardware on embedded systems</text>
+            <postback>learn more ecs</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>appointment with adviser</pattern>
+    <template>
+        Unfortunately, we couldn't help you find more information for a career path. Please schedule an appointment with your adviser for more career help.
+        <button>
+            <text>Go to beginning</text>
+            <postback>begin</postback>
+        </button>
+    </template>
+</category>
+
+</aiml>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<!-- TOP CHOICES -->
+<category>
+    <pattern>top</pattern>
+    <template>To learn more, please select an option below 
+        <button>
+            <text>Software Engineer</text>
+            <postback>learn more software</postback>
+        </button>
+        <button>
+            <text>Devops Engineer</text>
+            <postback>learn more devops</postback>
+        </button>
+        <button>
+            <text>AI and Machine Learning Engineer</text>
+            <postback>learn more AIML</postback>
+        </button>
+        <button>
+            <text>Big Data Engineer</text>
+            <postback>learn more big data</postback>
+        </button>
+        <button>
+            <text>Security Engineer</text>
+            <postback>learn more cybersecurity</postback>
+        </button>
+        <button>
+            <text>Embedded Controls System Engineer</text>
+            <postback>learn more ecs</postback>
+        </button>
+        <button>
+            <text>Go to main menu</text>
+            <postback>begin</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>learn more software</pattern>
+    <template>
+        Software engineers design, develop, and test software and applications for computers. They can work in a variety of industries and on many types of projects from small mobile apps to full scale enterprise applications.
+        <br/><br/>
+        <link>
+            <text>Click here to learn more about software engineering</text>
+            <url>https://www.indeed.com/career-advice/career-development/how-to-become-a-software-engineer</url>
+        </link>
+    <button>
+        <text>Return to beginning</text>
+        <postback>begin</postback>
+    </button>
+    </template>
+</category>
+
+<category>
+    <pattern>learn more devops</pattern>
+    <template>
+        DevOps engineers work in the intersection of software development and IT operations. They aim to shorten the systems development life cycle and provide continuous delivery with high software quality.
+        <br/><br/>
+        <link>
+            <text>Click here to learn more about devops engineering</text>
+            <url>https://www.indeed.com/career-advice/career-development/how-to-become-a-devops-engineer</url>
+        </link>
+    <button>
+        <text>Return to beginning</text>
+        <postback>begin</postback>
+    </button>
+    </template>
+</category>
+
+<category>
+    <pattern>learn more AIML</pattern>
+    <template>
+        AI and Machine Learning engineers design and build intelligent systems and machines that can learn from and make decisions or predictions based on data. They often work with large and complex datasets.
+        <br/><br/>
+        <link>
+            <text>Click here to learn more about AI and Machine Learning engineering</text>
+            <url>https://www.indeed.com/career-advice/finding-a-job/how-to-become-machine-learning-engineer</url>
+        </link>
+    <button>
+        <text>Return to beginning</text>
+        <postback>begin</postback>
+    </button>
+    </template>
+</category>
+
+<category>
+    <pattern>learn more big data</pattern>
+    <template>
+        Big Data engineers develop, maintain, test, and evaluate big data solutions within organizations. They are involved in the design of big data solutions and are central to managing and optimizing data processing.
+        <br/><br/>
+        <link>
+            <text>Click here to learn more about big data engineering</text>
+            <url>https://ca.indeed.com/career-advice/finding-a-job/how-to-become-data-engineer</url>
+        </link>
+    <button>
+        <text>Return to beginning</text>
+        <postback>begin</postback>
+    </button>
+    </template>
+</category>
+
+<category>
+    <pattern>learn more cybersecurity</pattern>
+    <template>
+        Cybersecurity engineers protect computer systems and networks from threats. They design secure systems, write secure code, and manage the security of data and systems.
+        <br/><br/>
+        <link>
+            <text>Click here to learn more about cybersecurity engineering</text>
+            <url>https://www.indeed.com/career-advice/finding-a-job/how-to-become-security-engineer</url>
+        </link>
+    <button>
+        <text>Return to beginning</text>
+        <postback>begin</postback>
+    </button>
+    </template>
+</category>
+
+<category>
+    <pattern>learn more ecs</pattern>
+    <template>
+        Embedded Controls System engineers work on the development of systems for controlling mechanical devices. They design, develop, and test embedded systems, often for industrial applications.
+        <br/><br/>
+        <link>
+            <text>Click here to learn more about embedded controls system engineering</text>
+            <url>https://www.indeed.com/career-advice/finding-a-job/how-to-become-firmware-engineer</url>
+        </link>
+    <button>
+        <text>Return to beginning</text>
+        <postback>begin</postback>
+    </button>
+    </template>
+</category>
+
+</aiml>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+<category>
+    <pattern>*</pattern>
+    <template>I'm sorry, I don't recognize that command. You can start over by typing "begin" or "help".</template>
+</category>   
+    
+</aiml>
